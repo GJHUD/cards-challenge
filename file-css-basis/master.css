@@ -39,7 +39,7 @@ body{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 50%);
+    transform: translate(-50%, 43%);
     width: 400px;
     background-color: white;
     padding: 20px;
@@ -48,6 +48,10 @@ body{
     box-sizing: border-box;
     border-right: 10px solid;
     border-bottom: 10px solid;
+    -webkit-transform: translate(-50%, 43%);
+    -moz-transform: translate(-50%, 43%);
+    -ms-transform: translate(-50%, 43%);
+    -o-transform: translate(-50%, 43%);
 }
 .Main .box .svg{
     border-radius: 10px;
