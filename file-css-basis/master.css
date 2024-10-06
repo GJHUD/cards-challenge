@@ -1,0 +1,76 @@
+/* start global rules */
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+     box-sizing: border-box;
+}
+.container{
+padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Mobile */
+@media(min-width:375px){
+    .container{
+        width: 750px;
+    }
+}
+
+/* Desktop */
+@media(min-width:1440px){
+    .container{
+        width: 1170px;
+    }
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Figtree", sans-serif;
+    background-color: hsl(47, 88%, 63%);
+}
+/* End global rules */
+/* strat box */
+.Main{
+    position: relative;
+}
+.Main .box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    width: 400px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 30px;
+    border: 1px solid;
+    box-sizing: border-box;
+    border-right: 10px solid;
+    border-bottom: 10px solid;
+}
+.Main .box .svg{
+    border-radius: 10px;
+}
+.Main .box h2:hover{
+    color:hsl(47, 88%, 63%) ;
+}
+.Main .box h4{
+    background-color:hsl(47, 88%, 63%);
+    width: fit-content;
+    padding: 8px;
+}
+.Main .box p{
+    color: #777;
+    font-size: 16px;
+}
+.Main .box .Avtar{
+    height: 35px;
+    top: 10px;
+    position: relative;
+    right: 7px;
+}
+.Main .box span{
+    font-weight: 800;
+}
+/* End box */
