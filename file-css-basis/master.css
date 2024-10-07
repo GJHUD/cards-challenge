@@ -11,7 +11,7 @@ padding-left: 15px;
     margin-right: auto;
 }
 /* Mobile */
-@media(min-width:375px){
+@media(Max-width:375px){
     .container{
         width: 750px;
     }
@@ -31,7 +31,7 @@ body{
     background-color: hsl(47, 88%, 63%);
 }
 /* End global rules */
-/* strat box */
+/* start box */
 .Main{
     position: relative;
 }
@@ -39,8 +39,8 @@ body{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 43%);
-    width: 400px;
+    transform: translate(-50%, 40%);
+    width: 350px;
     background-color: white;
     padding: 20px;
     border-radius: 30px;
@@ -48,13 +48,14 @@ body{
     box-sizing: border-box;
     border-right: 10px solid;
     border-bottom: 10px solid;
-    -webkit-transform: translate(-50%, 43%);
-    -moz-transform: translate(-50%, 43%);
-    -ms-transform: translate(-50%, 43%);
-    -o-transform: translate(-50%, 43%);
+    -webkit-transform: translate(-50%, 40%);
+    -moz-transform: translate(-50%, 40%);
+    -ms-transform: translate(-50%, 40%);
+    -o-transform: translate(-50%, 40%);
 }
 .Main .box .svg{
     border-radius: 10px;
+    width: 100%;
 }
 .Main .box h2:hover{
     color:hsl(47, 88%, 63%) ;
